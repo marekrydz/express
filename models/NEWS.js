@@ -4,8 +4,8 @@ const Schema = mongoose.Schema;
 
 const NewsModel =
     new Schema({
-        title: {type: String},
-        content: {type: String},
+        title: {type: String, required: true},
+        content: {type: String, required: true},
         date: {type: Date, default: Date.now}
     });
 

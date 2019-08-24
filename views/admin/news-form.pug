@@ -1,0 +1,14 @@
+block content
+    h1= title
+    p #{title}
+
+    form(method='POST')
+        label Title
+        br
+        input(type='text' name='title')
+        br
+        label Content
+        br
+        textarea(rows='5' name='content')
+        br
+        input(type='submit' value='Add news' )

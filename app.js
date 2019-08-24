@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cookieSession({
     name: 'session',
     keys: ['TryKey'],
-    maxAge: 10000,
+    maxAge: 1000 * 60 * 60 * 24,
 }));
 
 app.use((req, res, next) => {
