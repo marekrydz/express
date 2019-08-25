@@ -1,14 +1,16 @@
 block content
     h1= title
-    p #{title}
+    if errors.errors !== undefined
+        for message in errors.errors
+            p= message
 
     form(method='POST')
         label Title
         br
-        input(type='text' name='title')
+        input(type='text' name='title' value= body.title || "")
         br
         label Content
         br
-        textarea(rows='5' name='content')
+        textarea(rows='5' name='content')= body.content || ""
         br
         input(type='submit' value='Add news' )

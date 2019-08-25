@@ -16,21 +16,25 @@ router.get('/admin', (req, res) => {
 });
 
 router.get('/news/add', (req, res) => {
-    res.render('admin/news-form', {title: 'Add news to site'})
+    res.render('admin/news-form', {title: 'Add news to site', errors: {}, body: {}})
 });
 
 router.post('/news/add', (req, res) => {
+    const body = req.body;
     const newsModel = new NewsModel(req.body);
+    let errors = newsModel.validateSync();
+    if (errors === undefined) {
+        errors = [];
+    }
 
     newsModel.save(err => {
         if (err) {
-            console.log(err)
+            console.log('Fail during save to DB');
         } else {
             console.log('Save to DB');
         }
     });
 
-    console.log(req.body);
-    res.render('admin/news-form', {title: 'Add news to site'})
+    res.render('admin/news-form', {title: 'Add news to site', errors, body})
 });
 module.exports = router;
