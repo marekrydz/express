@@ -4,6 +4,9 @@ block content
         for message in errors.errors
             p= message
 
+    if information !== ''
+        p= information
+
     form(method='POST')
         label Title
         br
