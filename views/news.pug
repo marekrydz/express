@@ -3,3 +3,9 @@ extends layout
 block content
     h1= title
     p Welcome to #{title}
+
+    each news, index in data
+        article
+            h1(class='title')=news.title
+            p(class='createdData')=news.date
+            p= news.content
