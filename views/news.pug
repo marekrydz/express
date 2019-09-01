@@ -4,6 +4,9 @@ block content
     h1= title
     p Welcome to #{title}
 
+    form(method='GET')
+        input(type='text' name='find')
+        input(type='submit' value='Search')
     each news, index in data
         article
             h1(class='title')=news.title

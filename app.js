@@ -8,7 +8,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var newsRouter = require('./routes/news');
-var quizRouter = require('./routes/quiz');
+var questionnaireRouter = require('./routes/questionnaire');
 var adminRouter = require('./routes/admin');
 
 var app = express();
@@ -44,7 +44,7 @@ mongoose.connect('mongodb+srv://marco:marco@cluster0-yqgxm.mongodb.net/test?retr
 
 app.use('/', indexRouter);
 app.use('/', newsRouter);
-app.use('/', quizRouter);
+app.use('/', questionnaireRouter);
 app.use('/', adminRouter);
 
 // catch 404 and forward to error handler

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    if answer === undefined
+        label= `${voteAdded}`
+
+         span= `${question}`
+            form(method="POST")
+             for answer in data
+                 span= `${answer.answer}`
+                 input(type='radio', name='answerId', value= answer._id || 0)
+                 br
+             -if(isVoteButton===true)
+              input(type='submit' value= `Vote`)
+
+

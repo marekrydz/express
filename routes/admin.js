@@ -27,8 +27,9 @@ router.get('/news/add', (req, res) => {
 router.post('/news/add', (req, res) => {
     let information = '';
     let body = req.body;
-    const newsModel = new NewsModel(req.body);
+    const newsModel = new NewsModel(body);
     let errors = newsModel.validateSync();
+
     if (errors === undefined) {
         errors = [];
     }
@@ -45,7 +46,7 @@ router.post('/news/add', (req, res) => {
     });
 });
 
-router.get('/news/delete/:id', (req, res) => {
+router.get('/news/`delete/:id', (req, res) => {
     NewsModel.findByIdAndDelete({_id: req.params.id}, (err) => {
         if (err) {
             console.log('I can not delete this news');
