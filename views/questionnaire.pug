@@ -3,9 +3,15 @@ extends layout
 block content
     h1= title
     p Welcome to #{title}
-    if answer === undefined
-        label= `${voteAdded}`
+       br
+       br
+       if(sameUser === 1)
+        label= 'QUESTION ANSWERS STATISTIC:'
+        for answer in data
+           br
+           span= `${answer.answer} ${answer.vote} --- ${Math.round(answer.vote * 100/sum)}% `
 
+       else
          span= `${question}`
             form(method="POST")
              for answer in data
