@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const user = 'marek';
-const password = 'marek';
+const config = require('../config');
 
 /* GET home page. */
 router.get('/', (req, res) => {
@@ -13,13 +12,17 @@ router.get('/login', (req, res) => {
 });
 
 router.post('/login', (req, res) => {
-    if (req.body.password === password && req.body.user === user) {
+    if (req.body.password === config.login && req.body.user === config.login) {
         req.session.admin = 1;
         res.redirect('/admin');
-    } else {
+    }
+    else {
         res.redirect('/login');
     }
 });
 
+router.get('*', (req, res) => {
+    res.send('not found');
+});
 
 module.exports = router;
