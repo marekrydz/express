@@ -15,14 +15,10 @@ router.post('/login', (req, res) => {
     if (req.body.password === config.login && req.body.user === config.login) {
         req.session.admin = 1;
         res.redirect('/admin');
-    }
-    else {
+    } else {
         res.redirect('/login');
     }
 });
 
-router.get('*', (req, res) => {
-    res.send('not found');
-});
 
 module.exports = router;
