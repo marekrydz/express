@@ -1,14 +1,29 @@
-extends layout
+doctype html
+mixin item (url ,title)
 
+    li
+        a(href=url class= path === url ? 'active' : "")=title
+
+html
 block content
-    h1= title
-    p Welcome to #{title}
-
-    form(method='GET')
-        input(type='text' name='find')
-        input(type='submit' value='Search')
-    each news, index in data
-        article
-            h1(class='title')=news.title
-            p(class='createdData')=news.date
-            p= news.content
+    link(rel='stylesheet', href='/stylesheets/news.css')
+    div(id='container')
+     div(id='logo') Welcome to #{title}
+     div(id='nav')
+         ul
+             +item('/', 'Index')
+             +item('/questionnaire','Questionnaire')
+             +item('/news','News')
+             +item('/admin','Admin')
+     div(id='content')
+         form(method='GET')
+             input(type='text' name='find')
+             input(type='submit' value='Search')
+         each news, index in data
+             article
+                 h1(class='title')=news.title
+                 p(class='createdData')=news.date
+                 p= news.content
+     div(id='ad' )
+         img(src='../images/space3.jpg')
+     div(id='footer') Footer

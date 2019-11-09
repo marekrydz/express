@@ -1,0 +1,43 @@
+#container {
+    background-color: #156dbe;
+    color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    background-color: black;
+    padding: 22px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#nav {
+    background-color: #35ae3c;
+    float: left;
+    width: 150px;
+    height: 600px;
+}
+
+#content {
+    color: #111111;
+    background-color: #c3c9c1;
+    float: left;
+    width: 730px;
+    text-align: center;
+
+}
+
+#ad {
+    background-color: blueviolet;
+    float: left;
+    width: 120px;
+}
+
+#footer {
+    background-color: darksalmon;
+    clear: both;
+
+}
