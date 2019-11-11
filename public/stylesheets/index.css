@@ -1,25 +1,108 @@
-html {
-    background: url("../images/mr.jpg") no-repeat center center fixed;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 35% 100%;
-    background-position: left top, right top;
-}
-
 body {
-    font-family: "azo-sans", serif;
-
+    background-color: #111111;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: white;
 }
 
-.aboutMe {
-    color: #156dbe;
-    position: absolute;
-    width: 35%;
-    right: 198px;
-    top: 102px;
-    font-size: 27px;
-    line-height: 1.5em;
-    text-transform: none;
-    letter-spacing: -.02em;
-    font-weight: 700;
-    font-style: normal;
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle {
+    /*background-color: #156dbe;*/
+    clear: both;
+    text-align: center;
+}
+
+#logo {
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    font-size: 65px;
+    width: 600px;
+    text-align: left;
+}
+
+#clock {
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    font-size: 65px;
+}
+
+.square {
+    width: 50%;
+    float: left;
+}
+
+.tile1 {
+    background-color: blue;
+    margin: 10px;
+    width: 230px;
+    height: 135px;
+    float: left;
+}
+
+.tile2 {
+    background-color: grey;
+    margin: 10px;
+    width: 230px;
+    height: 135px;
+    float: left;
+}
+
+.tile3 {
+    background-color: chartreuse;
+    margin: 10px;
+    width: 230px;
+    height: 135px;
+    float: left;
+}
+
+.tile4 {
+    background-color: darksalmon;
+    margin: 10px;
+    height: 135px;
+    width: 480px;
+    float: left;
+}
+
+.tile5 {
+    background-color: blueviolet;
+    margin: 10px;
+    height: 290px;
+    width: 480px;
+}
+
+.linkedIn {
+    background-color: brown;
+    margin: 10px;
+    width: 105px;
+    height: 135px;
+    float: left;
+}
+
+.fb {
+    background-color: brown;
+    margin: 10px;
+    width: 105px;
+    height: 135px;
+    float: left;
+}
+
+.gitHub {
+    background-color: brown;
+    margin: 10px;
+    width: 105px;
+    height: 135px;
+    float: left;
+}
+
+.gmail {
+    background-color: brown;
+    margin: 10px;
+    width: 105px;
+    height: 135px;
+    float: left;
 }

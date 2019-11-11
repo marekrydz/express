@@ -1,7 +1,25 @@
-extends layout
-
-block content
-  body
-    div(class='aboutMe')= 'Hi welcome on my  name is Marek. My adventure with programming now is over one year. I really enjoy it and I want more. My major technologies are Java, Spring but also I try my strength with frontend skills like HTML5, CSS3, JavaScript. Here you can find some projects of mine, find contact, or download CV. This is my first site is not perfect but I will try upgrade it in my free time. Feel welcome and enjoy :)'
-    link(rel='stylesheet', href='/stylesheets/index.css')
-
+doctype html
+head
+  link(href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&display=swap" rel="stylesheet")
+  link(rel='stylesheet', href='/stylesheets/index.css')
+body
+  div(id='container')
+    div(class='rectangle')
+      div(id='logo')= 'Marek Rydzewski'
+      div(id='clock')= '12:00:00'
+    div(class='square')
+      div(class='tile1')=1
+      div(class='tile1')=1
+      div(style='clear:both')
+      div(class='tile2')=2
+      div(class='tile3')=3
+      div(style='clear:both')
+      div(class='tile4')=4
+    div(class='square')
+      div(class='tile5')=5
+      div(style='clear:both')
+      div(class='linkedIn')
+      div(class='gitHub')
+      div(class='fb')
+      div(class='gmail')
+    div(class='rectangle')='2019 © Marek Rydzewski -  Portfolio. Programmer JAVA, Spring ,now also JavaScript, Html, CSS '
