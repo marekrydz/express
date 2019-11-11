@@ -1,7 +1,13 @@
 
-.icon-gmail:before { content: '\e800'; } /* '' */
+.icon-qrcode:before { content: '\e800'; } /* '' */
 .icon-book:before { content: '\e801'; } /* '' */
+.icon-mail:before { content: '\e802'; } /* '' */
+.icon-cogs:before { content: '\e803'; } /* '' */
+.icon-network:before { content: '\e804'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-chat-empty:before { content: '\f0e6'; } /* '' */
+.icon-sitemap:before { content: '\f0e8'; } /* '' */
+.icon-cubes:before { content: '\f1b3'; } /* '' */
 .icon-address-card-o:before { content: '\f2bc'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; } /* '' */

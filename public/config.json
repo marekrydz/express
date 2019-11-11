@@ -19,12 +19,6 @@
       "src": "fontawesome"
     },
     {
-      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
-      "css": "gmail",
-      "code": 59392,
-      "src": "zocial"
-    },
-    {
       "uid": "68eb56470b836f19335231578515153e",
       "css": "address-card-o",
       "code": 62140,
@@ -41,6 +35,48 @@
       "css": "chat-empty",
       "code": 61670,
       "src": "fontawesome"
+    },
+    {
+      "uid": "4743b088aa95d6f3b6b990e770d3b647",
+      "css": "facebook-squared",
+      "code": 62216,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "wg849ixsobykxshs6efpc6fk4m0fq8bh",
+      "css": "mail",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
+      "uid": "fd45bb961d08f9f2092f0df3fba29fe9",
+      "css": "qrcode",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "6fe95ffc3c807e62647d4f814a96e0d7",
+      "css": "sitemap",
+      "code": 61672,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "af95ef0ddda80a78828c62d386506433",
+      "css": "cubes",
+      "code": 61875,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1e32e1f8787cf3cb9f52f8850822dcb6",
+      "css": "cogs",
+      "code": 59395,
+      "src": "elusive"
+    },
+    {
+      "uid": "b89d4f9c40feef06ad3b2e121f95c60b",
+      "css": "network",
+      "code": 59396,
+      "src": "elusive"
     }
   ]
 }
