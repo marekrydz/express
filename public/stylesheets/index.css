@@ -1,5 +1,5 @@
 body {
-    background-color: #111111;
+    background-color: #303030;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     color: white;
@@ -66,9 +66,12 @@ body {
 .tile4 {
     background-color: darksalmon;
     margin: 10px;
-    height: 135px;
-    width: 480px;
+    height: 75px;
+    width: 420px;
     float: left;
+    padding: 30px;
+    text-align: center;
+    line-height: 150%;
 }
 
 .tile5 {
@@ -79,15 +82,17 @@ body {
 }
 
 .linkedIn {
-    background-color: brown;
+    background-color: #0e76a8;
     margin: 10px;
     width: 105px;
     height: 135px;
     float: left;
     text-align: center;
-
 }
 
+.linkedIn:hover{
+    background-color: #0d65a7;
+}
 .fb {
     background-color: brown;
     margin: 10px;
