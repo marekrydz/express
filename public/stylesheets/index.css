@@ -84,7 +84,7 @@ body {
 .linkedIn {
     background-color: #0e76a8;
     margin: 10px;
-    width: 105px;
+    width: 147px;
     height: 135px;
     float: left;
     text-align: center;
@@ -93,29 +93,34 @@ body {
 .linkedIn:hover{
     background-color: #0d65a7;
 }
-.fb {
-    background-color: brown;
-    margin: 10px;
-    width: 105px;
-    height: 135px;
-    float: left;
-    text-align: center;
-}
+/*.fb {*/
+/*    background-color: brown;*/
+/*    margin: 10px;*/
+/*    width: 105px;*/
+/*    height: 135px;*/
+/*    float: left;*/
+/*    text-align: center;*/
+/*}*/
 
 .gitHub {
-    background-color: brown;
+    background-color: #211F1F;
     margin: 10px;
-    width: 105px;
+    width: 147px;
     height: 135px;
     float: left;
     text-align: center;
 }
-
+.gitHub:hover{
+    background-color: #100E0E;
+}
 .gmail {
-    background-color: brown;
+    background-color: #D44638;
     margin: 10px;
-    width: 105px;
+    width: 146px;
     height: 135px;
     float: left;
     text-align: center;
+}
+.gmail:hover{
+    background-color: #C33527;
 }
