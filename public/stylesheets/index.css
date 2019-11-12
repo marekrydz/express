@@ -37,32 +37,38 @@ body {
 }
 
 .tile1 {
-    background-color: blue;
+    background-color: #04B404;
     margin: 10px;
     width: 230px;
     height: 135px;
     float: left;
     text-align: center;
 }
-
+.tile1:hover{
+    background-color: #03A303;
+}
 .tile2 {
-    background-color: grey;
+    background-color: #2E64FE;
     margin: 10px;
     width: 230px;
     height: 135px;
     float: left;
     text-align: center;
 }
-
+.tile2:hover {
+    background-color: #1D53ED;
+}
 .tile3 {
-    background-color: chartreuse;
+    background-color: #DF7401;
     margin: 10px;
     width: 230px;
     height: 135px;
     float: left;
     text-align: center;
 }
-
+.tile3:hover {
+    background-color: #CE6300;
+}
 .tile4 {
     background-color: darksalmon;
     margin: 10px;
