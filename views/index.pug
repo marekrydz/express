@@ -11,22 +11,26 @@ body
       div(id='clock')= '12:00:00'
     div(class='square')
       div(class='tile1')
-        i(class='icon-address-card-o')
-        br
-        div='Curriculum vitae'
+        a(href='/news')
+            i(class='icon-address-card-o')
+            br
+            div='About me'
       div(class='tile1')
-        i(class='icon-cogs')
-        br
-        div='My projects'
+        a(href='/news')
+            i(class='icon-cogs')
+            br
+            div='My projects'
       div(style='clear:both')
       div(class='tile2')
-        i(class='icon-book')
-        br
-        div='Curriculum vitae'
+        a(href='/news')
+            i(class='icon-book')
+            br
+            div='Curriculum vitae'
       div(class='tile3')
-        i(class='icon-chat-empty')
-        br
-        div='Contact me'
+        a(href='/news')
+            i(class='icon-chat-empty')
+            br
+            div='Contact me'
       div(style='clear:both')
       div(class='tile4')
         i='Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. - Martin Golding'
@@ -34,9 +38,12 @@ body
       div(class='tile5')='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales, nisl sed pharetra accumsan, est arcu aliquet ante, eget sodales velit tellus id est. Proin volutpat sem eget faucibus porta. Donec eleifend vitae nunc tristique tincidunt. In aliquet molestie consequat. Curabitur ut quam purus. Quisque eu est a leo consectetur venenatis. Ut vitae felis at purus consectetur feugiat sed eget orci. Suspendisse volutpat lacinia mattis. In hac habitasse platea dictumst. Morbi ac massa venenatis, interdum lorem non, elementum quam. Phasellus pulvinar risus in orci ultrices, quis convallis dui malesuada.'
       div(style='clear:both')
       div(class='linkedIn')
-        i(class='icon-linkedin-squared')
+        a(href='https://www.linkedin.com/in/marek-rydzewski/' target='_blank')
+            i(class='icon-linkedin-squared')
       div(class='gitHub')
-        i(class='icon-github-circled')
+        a(href='https://github.com/MarcoRy' target='_blank')
+            i(class='icon-github-circled')
       div(class='gmail')
-          i(class='icon-mail')
+        a(href='/news')
+            i(class='icon-mail')
     div(class='rectangle')='2019 © Marek Rydzewski -  Portfolio. Programmer JAVA, Spring ,now also JavaScript, Html, CSS '

@@ -47,6 +47,14 @@ body {
 .tile1:hover{
     background-color: #03A303;
 }
+
+.tile1 a {
+    display: block;
+    width: 230px;
+    height: 135px;
+    color: white;
+    text-decoration: none;
+}
 .tile2 {
     background-color: #2E64FE;
     margin: 10px;
@@ -57,6 +65,14 @@ body {
 }
 .tile2:hover {
     background-color: #1D53ED;
+}
+
+.tile2 a {
+    display: block;
+    width: 230px;
+    height: 135px;
+    color: white;
+    text-decoration: none;
 }
 .tile3 {
     background-color: #DF7401;
@@ -69,6 +85,15 @@ body {
 .tile3:hover {
     background-color: #CE6300;
 }
+
+.tile3 a {
+    display: block;
+    width: 230px;
+    height: 135px;
+    color: white;
+    text-decoration: none;
+}
+
 .tile4 {
     background-color: darksalmon;
     margin: 10px;
@@ -79,6 +104,7 @@ body {
     text-align: center;
     line-height: 150%;
 }
+
 
 .tile5 {
     background-color: blueviolet;
@@ -96,8 +122,17 @@ body {
     text-align: center;
 }
 
+
 .linkedIn:hover{
     background-color: #0d65a7;
+}
+
+.linkedIn a {
+    display: block;
+    width: 147px;
+    height: 135px;
+    color: white;
+    text-decoration: none;
 }
 /*.fb {*/
 /*    background-color: brown;*/
@@ -119,6 +154,14 @@ body {
 .gitHub:hover{
     background-color: #100E0E;
 }
+
+.gitHub a {
+    display: block;
+    width: 147px;
+    height: 135px;
+    color: white;
+    text-decoration: none;
+}
 .gmail {
     background-color: #D44638;
     margin: 10px;
@@ -129,4 +172,12 @@ body {
 }
 .gmail:hover{
     background-color: #C33527;
+}
+
+.gmail a {
+    display: block;
+    width: 146px;
+    height: 135px;
+    color: white;
+    text-decoration: none;
 }
