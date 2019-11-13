@@ -3,12 +3,11 @@ head
   link(href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&display=swap" rel="stylesheet")
   link(rel='stylesheet', href='/stylesheets/index.css')
   link(rel='stylesheet', href='/css/fontello.css')
-
 body
   div(id='container')
     div(class='rectangle')
       div(id='logo')= 'Marek Rydzewski'
-      div(id='clock')= '12:00:00'
+      div(id='clock')
     div(class='square')
       div(class='tile1')
         a(href='/news')
@@ -47,3 +46,5 @@ body
         a(href='/news')
             i(class='icon-mail')
     div(class='rectangle')='2019 © Marek Rydzewski -  Portfolio. Programmer JAVA, Spring ,now also JavaScript, Html, CSS '
+    script
+        include ../public/javascripts/clock2.js
