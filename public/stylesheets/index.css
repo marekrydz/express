@@ -26,9 +26,10 @@ body {
 }
 
 #clock {
+    margin-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
-    font-size: 65px;
+    font-size: 47px;
 }
 
 .square {
