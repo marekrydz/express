@@ -1,22 +1,22 @@
 function counting()
 {
-    let dzisiaj = new Date();
+    let date = new Date();
 
-    let dzien = dzisiaj.getDate();
-    let miesiac = dzisiaj.getMonth()+1;
-    let rok = dzisiaj.getFullYear();
+    let day = date.getDate();
+    let month = date.getMonth()+1;
+    let year = date.getFullYear();
 
-    let godzina = dzisiaj.getHours();
-    if (godzina<10) godzina = "0"+godzina;
+    let hour = date.getHours();
+    if (hour<10) hour = "0"+hour;
 
-    let minuta = dzisiaj.getMinutes();
-    if (minuta<10) minuta = "0"+minuta;
+    let minute = date.getMinutes();
+    if (minute<10) minute = "0"+minute;
 
-    let sekunda = dzisiaj.getSeconds();
-    if (sekunda<10) sekunda = "0"+sekunda;
+    let second = date.getSeconds();
+    if (second<10) second = "0"+second;
 
     document.getElementById("clock").innerHTML =
-        dzien+"/"+miesiac+"/"+rok+"  "+godzina+":"+minuta+":"+sekunda;
+        day+"/"+month+"/"+year+"  "+hour+":"+minute+":"+second;
     
 }
 
