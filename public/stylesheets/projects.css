@@ -25,7 +25,7 @@ body {
     width: 882px;
     margin-left: auto;
     margin-right: auto;
-    height: 1000px;
+    /*height: 1000px;*/
     /*Taken from https://www.toptal.com/designers/subtlepatterns/*/
     background-image: url('../images/cork-wallet.png');
     padding: 6px;
@@ -33,7 +33,7 @@ body {
     border-right: 3px solid #c3c9c1;
 }
 
-#content {
+#table-content {
     width: 567px;
     background-color: olivedrab;
     padding-top: 3px;
@@ -48,24 +48,62 @@ ol {
     display: block;
 }
 
-ol>li{
+ol > li {
     font-size: 22px;
     font-weight: 700;
 }
 
-ol>li>ul{
+ol > li > ul {
     font-size: 18px;
-    font-weight:400;
+    font-weight: 400;
     letter-spacing: 1px;
     margin-top: 5px;
     list-style-type: none;
 }
-ol>li>ul>li:before{
+
+ol > li > ul > li:before {
     font-size: 15px;
     content: "❑";
     color: #2038c9;
 }
-ol>li>ul>li{
+
+ol > li > ul > li {
     margin: 0;
     color: #111111;
+}
+
+#files-changer {
+    content: url("../images/file-changer.jpg");
+    float: left;
+    width: 480px;
+    padding-left: 20px;
+}
+
+.description {
+    float: left;
+    width: 280px;
+    text-align: left;
+}
+
+#batman-sql-game{
+    content: url("../images/batman.jpg");
+    float: left;
+    width: 480px;
+    padding-left: 20px;
+}
+
+#kamien-papier-nozyce{
+    content: url("../images/rock-paper-scissors.jpg");
+    float: left;
+    width: 480px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+#my-portfolio{
+    content: url("../images/my-portfolio.png");
+    float: left;
+    width: 480px;
+    height: 300px;
+    padding-left: 20px;
 }
