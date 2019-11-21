@@ -72,10 +72,19 @@ ol > li > ul > li {
     color: #111111;
 }
 
+.slide {
+    color: #111111;
+}
+
+h2 {
+    text-align: center;
+}
+
 #files-changer {
-    content: url("../images/file-changer.jpg");
+    content: url(../images/file-changer.jpg);
     float: left;
     width: 480px;
+    height: 350px;
     padding-left: 20px;
 }
 
@@ -83,16 +92,17 @@ ol > li > ul > li {
     float: left;
     width: 280px;
     text-align: left;
+    padding-left: 45px;
 }
 
-#batman-sql-game{
+#batman-sql-game {
     content: url("../images/batman.jpg");
     float: left;
     width: 480px;
     padding-left: 20px;
 }
 
-#kamien-papier-nozyce{
+#kamien-papier-nozyce {
     content: url("../images/rock-paper-scissors.jpg");
     float: left;
     width: 480px;
@@ -100,10 +110,10 @@ ol > li > ul > li {
     padding-left: 20px;
 }
 
-#my-portfolio{
+#my-portfolio {
     content: url("../images/my-portfolio.png");
     float: left;
     width: 480px;
-    height: 300px;
+    height: 325px;
     padding-left: 20px;
 }
