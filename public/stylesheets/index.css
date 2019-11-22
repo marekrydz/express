@@ -38,7 +38,7 @@ body {
 }
 
 .tile1 {
-    background-color: #04B404;
+    background-color: #008000;
     margin: 10px;
     width: 230px;
     height: 135px;
@@ -46,7 +46,7 @@ body {
     text-align: center;
 }
 .tile1:hover{
-    background-color: #03A303;
+    background-color: #007000;
 }
 
 .tile1 a {
@@ -135,14 +135,6 @@ body {
     color: white;
     text-decoration: none;
 }
-/*.fb {*/
-/*    background-color: brown;*/
-/*    margin: 10px;*/
-/*    width: 105px;*/
-/*    height: 135px;*/
-/*    float: left;*/
-/*    text-align: center;*/
-/*}*/
 
 .gitHub {
     background-color: #211F1F;
