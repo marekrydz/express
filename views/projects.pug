@@ -11,17 +11,21 @@ body
         ol
             li='Java projects'
                 ul
-                    li='Files changer'
-                    li='Batman sql game'
+                    li
+                        a(href='#file-changer-header')='Files changer'
+                    li
+                        a(href='#batman-header')='Batman sql game'
             li='JavaScript projects'
                 ul
-                    li='Kamień, papier, nożyce'
+                    li
+                        a(href='#kamien-papier-nozyce-header')='Kamień, papier, nożyce'
             li='Node projects'
                 ul
-                    li='My portfolio'
+                    li
+                        a(href='#my-portfolio-header')='My portfolio'
       div(class='slide')
           h1 Here are java projects
-          h2 Files changer
+          h2(id='file-changer-header') Files changer
           div(id='files-changer' )
           div(class='description')
               | This is a program which convert files byte code.
@@ -32,7 +36,7 @@ body
           div(style='clear:both;')
       div(class='slide')
           h1 Here are java projects
-          h2 Batman sql game
+          h2(id='batman-header') Batman sql game
           div(id='batman-sql-game' )
           div(class='description')
               | This game is made for training sql queries.
@@ -44,7 +48,7 @@ body
           div(style='clear:both;')
       div(class='slide')
           h1 Here are JavaScript projects
-          h2 Kamień, papier, nożyce
+          h2(id='kamien-papier-nozyce-header') Kamień, papier, nożyce
           div(id='kamien-papier-nozyce' )
           div(class='description')
               | This game is made for training sql queries.
@@ -56,7 +60,7 @@ body
           div(style='clear:both;')
       div(class='slide')
           h1 Here are Node projects
-          h2 My portfolio
+          h2(id='my-portfolio-header') My portfolio
           div(id='my-portfolio' )
           div(class='description')
               | Everything started from node course.

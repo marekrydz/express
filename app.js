@@ -36,7 +36,7 @@ app.use((req, res, next) => {
 });
 
 mongoose.connect('mongodb+srv://marco:marco@cluster0-yqgxm.mongodb.net/test?retryWrites=true&w=majority',
-    {useNewUrlParser: true}, (err) => {
+    {useNewUrlParser: true,useUnifiedTopology: true}, (err) => {
         if (err) {
             console.log('Invalid connection');
         } else {
