@@ -1,13 +1,18 @@
-block content
-    h1= title
-    p Welcome to #{title}
-    form(method='POST')
-        label User
-        br
-        input(type='text' name='user')
-        br
-        label Password
-        br
-        input(type='password' name='password')
-        br
-        input(type='submit' value='Login')
+doctype html
+head
+    link(rel='stylesheet', href='/stylesheets/login.css')
+body
+     div(class='container')
+        h1= title
+        form(method='POST')
+            div(id='user')
+                label User
+                br
+                input(type='text' name='user')
+            div
+            div(id='password')
+                label Password
+                br
+                input(type='password' name='password')
+            div(id='login-btn')
+                input(type='submit' value='Login')
