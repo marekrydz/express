@@ -10,14 +10,35 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    text-align: center;
 }
 
-form,h1 {
+form {
     text-align: center;
+    font-size: 30px;
 }
 
 #user,#password,#login-btn{
     margin-top: 20px;
 }
 
+#current-user{
+    float: left;
+    margin-top: 200px;
+}
 
+#current-password{
+    float: right;
+    margin-top: 200px;
+}
+
+span {
+    float: left;
+    clear: left;
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+}
+.important-span{
+    color: green;
+}

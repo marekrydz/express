@@ -2,17 +2,26 @@ doctype html
 head
     link(rel='stylesheet', href='/stylesheets/login.css')
 body
-     div(class='container')
-        h1= title
+    //h1= title
+    div(class='container')
+        div(id='current-user')
+            span="Write user:"
+            span(class="important-span")="'1234'"
+            span="to get in"
+        div(id='current-password')
+            span="Write password:"
+            span(class="important-span")="'1234'"
+            span="to get in"
         form(method='POST')
             div(id='user')
-                label User
-                br
-                input(type='text' name='user')
+            label User
+            br
+            input(type='text' name='user')
             div
             div(id='password')
-                label Password
-                br
-                input(type='password' name='password')
+            label Password
+            br
+            input(type='password' name='password')
             div(id='login-btn')
-                input(type='submit' value='Login')
+            input(type='submit' value='Login')
+
