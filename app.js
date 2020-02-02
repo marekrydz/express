@@ -13,6 +13,7 @@ var adminRouter = require('./routes/admin');
 var projectsRouter = require('./routes/projects');
 var apiRouter = require('./routes/api');
 var curriculumVitaeRouter = require('./routes/curriculum-vitae');
+var aboutMe = require('./routes/about-me');
 
 var app = express();
 
@@ -52,6 +53,7 @@ app.use('/', adminRouter);
 app.use('/', projectsRouter);
 app.use('/', apiRouter);
 app.use('/', curriculumVitaeRouter);
+app.use('/', aboutMe);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
