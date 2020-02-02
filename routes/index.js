@@ -14,7 +14,7 @@ router.get('/login', (req, res) => {
 router.post('/login', (req, res) => {
     if (req.body.password === config.login && req.body.user === config.login) {
         req.session.admin = 1;
-        res.redirect('/projects');
+        res.redirect('/curriculum-vitae');
     } else {
         res.redirect('/login');
     }

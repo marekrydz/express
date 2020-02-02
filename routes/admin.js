@@ -2,15 +2,6 @@ const express = require('express');
 const NewsModel = require('../models/NEWS');
 const router = express.Router();
 
-/* GET home page. */
-router.all('*', (req, res, next) => {
-    if (req.session.admin !== 1) {
-        res.redirect('/login');
-        return;
-    }
-    next();
-});
-
 router.get('/admin', (req, res) => {
     NewsModel.find({}, (err, data) => {
         if (err) {

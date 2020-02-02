@@ -3,9 +3,11 @@ const path = require('path');
 const router = express.Router();
 const app= express();
 
-
-/* GET home page. */
 router.get('/curriculum-vitae', (req, res) => {
+    if (req.session.admin !== 1) {
+        res.redirect('/login');
+        return;
+    }
     res.render('curriculum-vitae');
 });
 
