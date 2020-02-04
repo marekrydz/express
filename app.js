@@ -14,6 +14,7 @@ var projectsRouter = require('./routes/projects');
 var apiRouter = require('./routes/api');
 var curriculumVitaeRouter = require('./routes/curriculum-vitae');
 var aboutMe = require('./routes/about-me');
+var mail = require('./routes/mail');
 
 var app = express();
 
@@ -54,6 +55,7 @@ app.use('/', projectsRouter);
 app.use('/', apiRouter);
 app.use('/', curriculumVitaeRouter);
 app.use('/', aboutMe);
+app.use('/', mail);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
@@ -61,7 +63,7 @@ app.use(function (req, res, next) {
 });
 
 // error handler
-app.use(function (err, req, res, next) {
+app.use(function (err, req, res) {
     // set locals, only providing error in development
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};

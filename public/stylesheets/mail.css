@@ -1,0 +1,37 @@
+html {
+    background: url("../images/mail-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 225px;
+}
+
+.text {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+    color: white;
+}
+
+.text .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.text .letters {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
