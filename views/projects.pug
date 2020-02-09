@@ -9,72 +9,71 @@ body
     div(id='container')
       div(id='table-content')
         ol
-            li='Java projects'
+            li='Spring + hibernate + thymeleaf'
+                ul
+                    li
+                        a(href='#batman-header')='Batman sql game'
+            li='Java'
                 ul
                     li
                         a(href='#file-changer-header')='Files changer'
-                    li
-                        a(href='#batman-header')='Batman sql game'
-            li='JavaScript projects'
+            li='JavaScript + CSS + HTML'
                 ul
                     li
-                        a(href='#kamien-papier-nozyce-header')='Kamień, papier, nożyce'
-            li='Node projects'
+                        a(href='#kamien-papier-nozyce-header')= 'Rock, paper, scissors'
+            li='Node + JavaScript + CSS + Pug'
                 ul
                     li
                         a(href='#my-portfolio-header')='My portfolio'
       div(class='slide')
-          h1 Here are java projects
-          h2(id='file-changer-header') Files changer
-          div(id='files-changer' )
-          div(class='description')
-              | This is a program which convert files byte code.
-              | You can choose path or specific file and type of files.
-              | When you do this you write what byte chain you want to change.
-              | Letter you choose on what byte chain program will replace founded bytes
-              |Warning: Be careful when you decide change bytes in path. If you choose system folder it can cause dangerous results
-          div(style='clear:both;')
-              a(href='https://github.com/MarcoRy/bytes-changer') Link to project code on github
-      div(class='slide')
-          h1 Here are java projects
-          h2(id='batman-header') Batman sql game
+          h1(id='batman-header') Spring + hibernate + thymeleaf
+          h2 Batman sql game
           div(id='batman-sql-game' )
           div(class='description')
-              | This game is made for training sql queries.
-              | In the game you have some story about Batman
-              | You have to made some mission write sql queries
-              | If it is correct you move to another level
-              | On every level you get information what tables and columns
-              | you have to use in your query
+              |This game is made for training SQL queries.
+              |In each episode, you get some interesting pieces of information from Batman's world.
+              |To get to the next part just write the correct query.
+              |On every level you get, also info about what tables and columns you have to use.
+              |Don't hesitate just check it out.
           div(style='clear:both;')
               a(href='https://github.com/MarcoRy/batman-sql-game') Link to project code on github
               br
               a(href='https://batman-sql-game.herokuapp.com') Play game
       div(class='slide')
-          h1 Here are JavaScript projects
-          h2(id='kamien-papier-nozyce-header') Kamień, papier, nożyce
+          h1(id='file-changer-header') Java
+          h2 Files changer
+          div(id='files-changer' )
+          div(class='description')
+              |This is a console program, which changing files byte code.
+              |You can choose the path and type of files you want to have transformed.
+              |When you do this, you write byte chain you want to replace and secondly byte chain you want to put in.
+              |Warning: Be careful when you decide to change bytes in the path because you can incidentally damage important files.
+          div(style='clear:both;')
+              a(href='https://github.com/MarcoRy/bytes-changer') Link to project code on github
+      div(class='slide')
+          h1(id='kamien-papier-nozyce-header')  JavaScript + CSS + HTML
+          h2 Rock, paper, scissors
           div(id='kamien-papier-nozyce' )
           div(class='description')
-              | This game is made for training sql queries.
-              | In the game you have some story about Batman
-              | You have to made some mission write sql queries
-              | If it is correct you move to another level
-              | On every level you get information what tables and columns
-              | you have to use in your query
+              |Almost everybody knows this game.
+              |Many unresolved situations were resolved by this entertainment;).
+              |I made this simple game to training my JavaScript skills.
+              |You play with the computer.
+              |You have a statistic that informs about the win, lost and draws for checking how lucky you are.
+              |Try to beat your opponent.
           div(style='clear:both;')
               a(href='https://github.com/MarcoRy/rock-paper-scissors') Link to project code on github
               br
               a(href='https://rock-paper-scissors-by-mr.herokuapp.com/index.html') Play game
       div(class='slide')
-          h1 Here are Node projects
-          h2(id='my-portfolio-header') My portfolio
+          h1(id='my-portfolio-header') Node + JavaScript + CSS + Pug
+          h2 My portfolio
           div(id='my-portfolio' )
           div(class='description')
-              | Everything started from node course.
-              | I made same simple example sites.
-              | I wonder what to do with this, and get idea during html course
-              | So I started transform, upgrading, adding new features, changing code to Portfolio style.
-              | And I made what you can see here.
-              | Enjoy. Any new ideas, what to add, change is nice to hear
+              |Everything started from the node course.
+              |I made some simple example sites.
+              |I wondered what to do with this...
+              |So I started to transform, upgrading, adding new features, changing code and I got something like my portfolio.
+              |Hope you like it. Any new ideas are nice to hear.
           div(style='clear:both;')
               a(href='https://github.com/MarcoRy/express') Link to project code on github

@@ -43,6 +43,18 @@ body {
     margin-right: auto;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
 ol {
     margin-top: 15px;
     display: block;
@@ -59,6 +71,7 @@ ol > li > ul {
     letter-spacing: 1px;
     margin-top: 5px;
     list-style-type: none;
+    margin-left: -35px;
 }
 
 ol > li > ul > li:before {
