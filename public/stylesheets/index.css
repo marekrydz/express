@@ -110,8 +110,12 @@ body {
 .tile5 {
     background-color: blueviolet;
     margin: 10px;
-    height: 290px;
-    width: 480px;
+    height: 270px;
+    width: 460px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: URW Chancery L, cursive
+
 }
 
 .linkedIn {
