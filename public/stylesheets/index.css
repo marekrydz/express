@@ -12,7 +12,6 @@ body {
 }
 
 .rectangle {
-    /*background-color: #156dbe;*/
     clear: both;
     text-align: center;
 }
@@ -21,7 +20,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     font-size: 65px;
-    width: 555px;
+    width: 554px;
     text-align: left;
 }
 
@@ -108,14 +107,14 @@ body {
 
 
 .tile5 {
-    background-color: #2b67e2;
+    background-color: blueviolet;
     margin: 10px;
-    height: 240px;
+    height: 270px;
     width: 460px;
-    padding: 30px 10px 20px;
-    font-size: 23px;
-    font-family: URW Chancery L, cursive;
-    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: URW Chancery L, cursive
+
 }
 
 .linkedIn {
