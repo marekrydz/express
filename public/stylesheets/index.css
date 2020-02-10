@@ -107,14 +107,14 @@ body {
 
 
 .tile5 {
-    background-color: blueviolet;
+    background-color: #2b67e2;
     margin: 10px;
-    height: 270px;
+    height: 240px;
     width: 460px;
-    padding: 10px;
-    font-size: 25px;
-    font-family: URW Chancery L, cursive
-
+    padding: 30px 10px 20px;
+    font-size: 23px;
+    font-family: URW Chancery L, cursive;
+    text-align: center;
 }
 
 .linkedIn {
