@@ -129,6 +129,23 @@ h2 {
     padding-left: 45px;
 }
 
+#squash-shop {
+    content: url("../images/squash-shop.jpg");
+    float: left;
+    width: 480px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+#make-shopping {
+    padding-bottom: 1px;
+}
+
+#warning {
+    color: red;
+    font-size: 11px;
+}
+
 #batman-sql-game {
     content: url("../images/batman.jpg");
     float: left;
